@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  text-align: justify;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  max-width: 375px;
+  margin: 10% auto;
+  background-color: hsl(233, 47%, 7%);
+}
+
+#card {
+  width: 80%;
+  height: 80%;
+  background-color: hsl(244, 38%, 16%);
+  margin: 10% auto;
+  overflow: hidden;
+  border-radius: 10px;
+  background-blend-mode: screen;
+}
+
+#image {
+  background-color: hsl(277, 64%, 61%);
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  align-self: flex-start;
+  mix-blend-mode: luminosity;
+}
+
+#textContent {
+  margin: 5% 5%;
+  text-align: center;
+}
+
+.mainHeading {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.mainParagraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.statDiv {
+  margin-bottom: 2rem;
+}
+
+.statHeading {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.8rem;
+}
+
+#accent {
+  color: hsl(277, 64%, 61%);
+}
+
+.mainHeading h1 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+#stats div h2 {
+  margin-bottom: 0.2rem;
+}
